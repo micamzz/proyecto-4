@@ -12,49 +12,49 @@ body {
     background: linear-gradient(180deg, rgba(255, 245, 252, 0.3799894957983193) 7%, rgba(255, 243, 255, 1) 23%);
     font-family: 'Roboto', sans-serif !important;
     color: nth($colores, 6);
-    }
+}
 
 /* Titulo y subtitulo centrado */
- .style-titulo {
+.style-titulo {
     margin-bottom: 20px;
-    }
+}
 
- .titulo1 {
+.titulo1 {
     @extend %Flexbox;
     color: nth($colores, 1);
     font-style: italic;
     font-size: 60px;
     font-weight: bolder;
-    }
+}
 
- .subtitulo1 {
+.subtitulo1 {
     @extend %Flexbox;
     color: nth($colores, 2);
     font-size: 25px;
     font-style: italic;
     font-weight: bold;
-   
-  }
 
- /* Foto de la emprendedora mas breve texto */
-  .section2 {
+}
+
+/* Foto de la emprendedora mas breve texto */
+.section2 {
     @extend %Flexbox;
     margin-right: 10px;
     margin-top: 40px;
     margin-bottom: 25px;
- 
-   }
 
-  .section2 img {
+}
+
+.section2 img {
     @extend %Flexbox;
     width: 35%;
     border-radius: 40px;
     margin-left: 25px;
     margin-right: 20px;
-    
-   }
 
-  .descripcion {
+}
+
+.descripcion {
     color: nth($colores, 6);
     font-size: 20px;
     width: 400px;
@@ -62,17 +62,17 @@ body {
     display: flex;
     align-items: center;
     font-weight: 800;
-  }
+}
 
- .descripcion2 {
+.descripcion2 {
     font-size: 20px;
     margin-left: 270px;
     margin-right: 200px;
     font-weight: 800;
-   }
+}
 
-  /* FOOTER */
-  footer {
+/* FOOTER */
+footer {
     background-color: nth($colores, 3);
     height: 180px;
 
@@ -113,88 +113,91 @@ body {
         filter: alpha(opacity=50);
     }
 
-  }
+}
 
- /* IMAGENES BORDES-TORTAS Y RECETAS.HTML */
- .texto1 {
+/* IMAGENES BORDES-TORTAS Y RECETAS.HTML */
+.texto1 {
     margin-top: 25px;
     margin-bottom: 15px;
- }
+}
 
-  .image2 {
+.image2 {
     border-radius: 40px;
     transition: all 2s ease-in;
 
     &:hover {
         transform: scale(2);
     }
- }
- .image3 {
+}
+
+.image3 {
     border-radius: 40px;
     margin-top: 30px;
     margin-bottom: 25px;
- }
+}
 
- /*  titulo principal y titulos secundarios */
- .tittle-productos {
+/*  titulo principal y titulos secundarios */
+.tittle-productos {
     @extend %Flexbox;
     color: nth($colores, 1);
     font-weight: bolder;
     font-size: 50px;
     margin: 5px auto;
-    
- }
 
- .tittle-productos2 {
+}
+
+.tittle-productos2 {
     @extend %Flexbox;
     color: nth($colores, 1);
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: bold;
- }
+}
 
- .item-pedido {
+.item-pedido {
     margin-top: 50px;
     display: flex;
     align-items: center;
- }
+}
 
- .texto2 {
+.texto2 {
     font-size: 18px;
-  }
+}
 
- /* MEDIA QUERY */
- /* MOBILE STYLE */
+/* MEDIA QUERY */
+/* MOBILE STYLE */
 
 @media only screen and (max-width: 400px) {
     .titulo1 {
         margin: 5px 50%;
     }
 
-     .subtitulo1 {
+    .subtitulo1 {
         margin: 5px auto;
         font-size: medium;
     }
 
-     .section2 {
+    .section2 {
         margin: 10px 25px;
+
         img {
             display: none;
-          }
-       }
+        }
+    }
 
-     .section-d .descripcion2 {
+    .section-d .descripcion2 {
         margin-left: 25px;
         margin-right: 15px;
-      }
+    }
 
-      .image3{ width: 200; height: 200;
-      margin-left: 25px;
-    margin-right: 3px;}
+    .image3 {
+        width: 200;
+        height: 200;
+    }
 
-     .image4 {
+    .image4 {
         margin-top: 5px;
-     }
+    }
 
     /*  FOOTER */
     .footer {
@@ -250,9 +253,9 @@ body {
         display: none;
     }
 
-     .image3 {
+    .image3 {
         margin-left: 60px;
-     }
+    }
 
 
     /*  FOOTER */
