@@ -135,6 +135,10 @@ footer {
   .section-d .descripcion2 {
     margin-left: 25px;
     margin-right: 15px; }
+  .image3 {
+    width: 200;
+    height: 200;
+    margin-left: 5px; }
   .image4 {
     margin-top: 5px; }
   /*  FOOTER */
@@ -165,9 +169,7 @@ footer {
   .footer .imagenlogo {
     display: none; }
   .image3 {
-    margin-left: 60px;
-    width: 200;
-    height: 200; }
+    margin-left: 60px; }
   /*  FOOTER */
   .footer .footer-tittle {
     margin-left: 20px; }
