@@ -1,5 +1,5 @@
-# proyecto-4
-entrega final proyecto 4
+# proyecto final
+Entrega final del proyecto del curso de Desarrollo web de Coderhouse
 <h1 align = "center"> Hola 👋, soy Micaela </h1>
 <h3 align = "center"> Desafío final de Desarrollo web </h3>
 
