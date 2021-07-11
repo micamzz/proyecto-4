@@ -59,18 +59,23 @@ body {
 footer {
   background-color: #f5dcff;
   height: 180px; }
+
   footer a {
     text-decoration: none;
     color: black; }
+
     footer a:hover {
       color: #d3c1ff; }
+
   footer .footer-tittle {
     margin-left: 140px;
     font-size: 25px; }
+
   footer .InstaLogo {
     font-size: 20px;
     align-items: center;
     margin: 30px; }
+
   footer .WaLogo {
     font-size: 20px;
     display: flex;
@@ -78,6 +83,7 @@ footer {
     align-items: center;
     margin: 40px;
     margin-left: 140px; }
+
   footer .imagenlogo {
     float: right;
     opacity: 0.5;
@@ -125,30 +131,40 @@ footer {
 @media only screen and (max-width: 400px) {
   .titulo1 {
     margin: 5px 50%; }
+
   .subtitulo1 {
     margin: 5px auto;
     font-size: medium; }
+
   .section2 {
     margin: 10px 25px; }
+
     .section2 img {
       display: none; }
+
   .section-d .descripcion2 {
     margin-left: 25px;
     margin-right: 15px; }
+
   .image3 {
     width: 300px;
     height: 300px;
     margin: 5px;
     margin-left: 15px; }
+
   /*  FOOTER */
   .footer .footer-tittle {
     margin-left: 20px; }
+
   .footer .imagenlogo {
     display: none; }
+
   .footer .footer-tittle {
     margin-left: 20px; }
+
   .footer .InstaLogo {
     margin: 20px; }
+
   .footer .WaLogo {
     margin-left: 100px; } }
 
@@ -156,26 +172,36 @@ footer {
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   .subtitulo1 {
     font-size: medium; }
+
   .titulo1 {
     margin: 5px 50%; }
+
   .section2 img {
     display: none; }
+
   .section-d .descripcion2 {
     margin-left: 40px;
     margin-right: 40px; }
+
   .footer .imagenlogo {
     display: none; }
+
   .image3 {
     margin-left: 60px; }
+
   /*  FOOTER */
   .footer .footer-tittle {
     margin-left: 20px; }
+
   .footer .imagenlogo {
     display: none; }
+
   .footer .footer-tittle {
     margin-left: 20px; }
+
   .footer .InstaLogo {
     margin: 20px; }
+    
   .footer .WaLogo {
     margin-left: 150px; } }
 
